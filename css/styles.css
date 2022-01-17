@@ -232,16 +232,16 @@ a:hover {
 .btn-solid-lg {
 	display: inline-block;
 	border: 2px solid #f6d1d8;
-	border-radius: 4px;
 	color: #f6d1d8;
 	font-weight: 600;
-	font-size: 0.875rem;
 	line-height: 0;
 	text-decoration: none;
 	margin-top: 2rem;
 	margin-bottom: 2rem;
-	padding: 1rem;
 	height: 150px;
+	padding: 2rem 1.5rem;
+	font-size: 1rem;
+	border-radius: 100px;
 }
 
 .btn-solid-lg:hover {
@@ -1447,7 +1447,7 @@ a:hover {
 	}
 
 	.header .btn-solid-lg {
-		padding: 2rem 2.5rem;
+		padding: 2rem 1.5rem;
 		font-size: 1rem;
 		border-radius: 100px;
 	
