@@ -563,7 +563,7 @@ a:hover {
 }
 
 .rose{
-	color:#F29FAF
+	color:#F29FAF;
 }
 
 .anim {
@@ -782,7 +782,10 @@ a:hover {
 .modal-body img{
 	width: 80%;
 	height: auto;
-	
+}
+
+.cursor .pixel {
+	height: 263px;
 }
 
 .grid img:hover{
@@ -792,6 +795,10 @@ a:hover {
 
 .modal-header h5{
 	color: gray;
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon {
+	background-color: rgba(246, 209, 216, 0.7);;
 }
 
 /************************/
@@ -997,7 +1004,6 @@ a:hover {
 /******************/
 .footer {
 	padding-top: 2rem;
-	padding-bottom: 1rem;
 	background-color: #f6d1d8;
 }
 
@@ -1007,6 +1013,7 @@ a:hover {
 
 .footer .footer-col {
 	margin-bottom: 1rem;
+	margin-top: 0.5rem;
 }
 
 .footer h6 {
@@ -1017,7 +1024,7 @@ a:hover {
 .footer p,
 .footer a,
 .footer ul {
-	color: #9ba3b1;
+	color: gray;
 }
 
 .footer .li-space-lg li {
@@ -1040,6 +1047,14 @@ a:hover {
     color: #9ba3b1;
 	transition: all 0.2s ease;
 }
+
+.flex-footer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+
 
 
 /*********************/
@@ -1371,7 +1386,7 @@ a:hover {
 
 	/* Footer */
 	.footer .footer-col {
-		margin-bottom: 2rem;
+		margin-bottom: 1rem;
 	}
 
 	.footer .footer-col.first {
@@ -1390,7 +1405,6 @@ a:hover {
 	
 	.footer .footer-col.third {
 		display: inline-block;
-		width: 224px;
 		text-align: right;
 		vertical-align: top;
 	}
