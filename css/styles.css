@@ -1377,6 +1377,7 @@ a:hover {
 	.filter .element-item {
 		display: inline-block;
 		width: 351px;
+		height: 379px;
 		margin-right: 0.625rem;
 		margin-left: 0.625rem;
 		vertical-align: top;
